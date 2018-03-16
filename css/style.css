@@ -1,0 +1,58 @@
+#about-paragraph {
+    padding-top: 5%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 200%; 
+}
+
+.header-social-row {
+    margin-top: 0;
+}
+
+ul.header-social-buttons {
+    padding-bottom: 0%;
+  }
+
+ul.header-social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #212529;
+    border-radius: 100%;
+    outline: none;
+    background-color: white;
+}
+
+ul.header-social-buttons li a:active, ul.header-social-buttons li a:focus, ul.header-social-buttons li a:hover {
+    background-color: #fed136;
+}
+
+.btn.btn-resume {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+  
+.btn-xl.btn-resume {
+    font-size: 18px;
+    padding: 20px 40px;
+}
+  
+.btn-primary.btn-resume {
+    background-color: #212529;
+    border-color: #212529;
+}
+  
+.btn-primary.btn-resume:active, .btn-primary.btn-resume:focus, .btn-primary.btn-resume:hover {
+    background-color: #fec810 !important;
+    border-color: #fec810 !important;
+    color: white;
+}
+  
+.btn-primary.btn-resume:active, .btn-primary.btn-resume:focus {
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
