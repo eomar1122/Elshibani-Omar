@@ -113,7 +113,7 @@ ul.header-social-buttons li a:hover {
 }
 
 .skill {
-  margin: 15px;
+  margin: 18px;
 }
 .skill i {
   font-size: 100px;
@@ -124,9 +124,16 @@ ul.header-social-buttons li a:hover {
     background-size: 114%; 
   }
 
+  .firebase {
+    background-image:url(../img/firebase.png); 
+    background-size: 114%; 
+  }
+
 .chai,
-.mongoose {
+.mongoose,
+.firebase {
   width: 100px; 
   height: 100px;
   background-repeat: no-repeat;
 }
+
