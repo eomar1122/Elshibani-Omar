@@ -1,58 +1,132 @@
 #about-paragraph {
-    padding-top: 5%;
-    word-spacing: 2px;
-    letter-spacing: 1px;
-    line-height: 200%; 
+  padding-top: 5%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 200%;
 }
 
 .header-social-row {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 ul.header-social-buttons {
-    padding-bottom: 0%;
-  }
-
-ul.header-social-buttons li a {
-    font-size: 20px;
-    line-height: 40px;
-    display: block;
-    width: 40px;
-    height: 40px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    color: #212529;
-    border-radius: 100%;
-    outline: none;
-    background-color: white;
+  padding-bottom: 0%;
 }
 
-ul.header-social-buttons li a:active, ul.header-social-buttons li a:focus, ul.header-social-buttons li a:hover {
-    background-color: #fed136;
+ul.header-social-buttons li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #212529;
+  border-radius: 100%;
+  outline: none;
+  background-color: white;
+}
+
+ul.header-social-buttons li a:active,
+ul.header-social-buttons li a:focus,
+ul.header-social-buttons li a:hover {
+  background-color: #fed136;
 }
 
 .btn.btn-resume {
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 700;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
-  
+
 .btn-xl.btn-resume {
-    font-size: 18px;
-    padding: 20px 40px;
+  font-size: 18px;
+  padding: 20px 40px;
 }
-  
+
 .btn-primary.btn-resume {
-    background-color: #212529;
-    border-color: #212529;
+  background-color: #212529;
+  border-color: #212529;
 }
-  
-.btn-primary.btn-resume:active, .btn-primary.btn-resume:focus, .btn-primary.btn-resume:hover {
-    background-color: #fec810 !important;
-    border-color: #fec810 !important;
-    color: white;
+
+.btn-primary.btn-resume:active,
+.btn-primary.btn-resume:focus,
+.btn-primary.btn-resume:hover {
+  background-color: #fec810 !important;
+  border-color: #fec810 !important;
+  color: white;
 }
-  
-.btn-primary.btn-resume:active, .btn-primary.btn-resume:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+
+.btn-primary.btn-resume:active,
+.btn-primary.btn-resume:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+.portfolio-github {
+  text-align: center;
+  margin-top: 25px;
+}
+.portfolio-github i {
+  font-size: 50px;
+}
+.portfolio-github a {
+  text-decoration: none;
+}
+.portfolio-github .colored {
+  color: #212529;
+}
+.portfolio-github .colored:hover {
+  color: #fec810;
+}
+
+.skills-section .subtitle {
+  font-size: 18px;
+  color: #8a8a8a;
+  margin-top: 0;
+  margin-bottom: 45px;
+  font-weight: 300;
+}
+.skills-section .top-skills {
+  margin-bottom: 35px;
+}
+.skills-section .top-skills .item {
+  margin-bottom: 45px;
+}
+.skills-section .level {
+  color: #8a8a8a;
+  margin-bottom: 15px;
+}
+.skills-section .desc {
+  color: #666;
+}
+.skills-section .skill-tag {
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  padding: 6px 30px;
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid #f5f5f5;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.skill {
+  margin: 15px;
+}
+.skill i {
+  font-size: 100px;
+}
+
+.mongoose {
+    background-image:url(../img/mongoose.png); 
+    background-size: 114%; 
+  }
+
+.chai,
+.mongoose {
+  width: 100px; 
+  height: 100px;
+  background-repeat: no-repeat;
 }
