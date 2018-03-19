@@ -126,12 +126,19 @@ ul.header-social-buttons li a:hover {
 
   .firebase {
     background-image:url(../img/firebase.png); 
-    background-size: 114%; 
+    background-size: 100%; 
   }
+
+  .chai {
+    background-image:url(../img/chai.png); 
+    background-size: 100%; 
+  }
+
 
 .chai,
 .mongoose,
-.firebase {
+.firebase,
+.chai {
   width: 100px; 
   height: 100px;
   background-repeat: no-repeat;
