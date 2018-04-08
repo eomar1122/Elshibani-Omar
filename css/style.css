@@ -145,7 +145,8 @@ ul.header-social-buttons li a:hover {
 }
 
 footer {
-  background: #eee;
+  background: #f5f5f5;
+  border-top: 1px solid #666;
 }
 
 
